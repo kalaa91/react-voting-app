@@ -1,0 +1,2 @@
+(this["webpackJsonpreact-voting-app"]=this["webpackJsonpreact-voting-app"]||[]).push([[8],{53:function(e,t,n){"use strict";n.r(t),n.d(t,"default",(function(){return c}));var a=n(0),r=n.n(a),o=n(45);function c(e){var t=e.question,n=e.publishedDate;return r.a.createElement(r.a.Fragment,null,r.a.createElement(o.g,{inputColor:"#c53e55"},t),r.a.createElement(o.f,{inputColor:"#c53e55"},new Date(n).toDateString()," "),r.a.createElement(o.g,{inputColor:"#c53e55"},"Choose a Vote:"))}}}]);
+//# sourceMappingURL=8.7e2f4f01.chunk.js.map
