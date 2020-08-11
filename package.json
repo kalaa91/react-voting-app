@@ -1,7 +1,17 @@
 {
   "name": "react-voting-app",
   "version": "0.1.0",
+  "keywords": [
+    "react",
+    "voting"
+  ],
+  "author": {
+    "email": "kareem.alaaeldin@outlook.com",
+    "name": "Kareem Ibrahim",
+    "url": "https://github.com/kalaa91"
+  },
   "private": true,
+  "license": "ISC",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
