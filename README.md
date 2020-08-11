@@ -15,6 +15,34 @@ Is to practice reactjs, through building a voiting app that uses [pollsapi votin
 - [x] Explore [styled components](https://styled-components.com/) as a CSS-in-js library.
 - [ ] Configure unit, Integration and E2E tests.
 
+## Run the app 
+1. to install project dependencies
+ ```sh
+npm install
+ ```
+
+2. to build the project
+ ```sh
+ npm run build
+ ```
+
+3. to start the server, then navigate to `localhost:3000`
+```sh
+npm run start
+```
+
+## Run Through Docker
+
+1. to build the image 
+```sh
+docker build . -t react-docker
+```
+
+2. to run, then navigate to `localhost:8000`
+```sh
+docker run -p 8000:80 react-docker
+```
+
 # Project structure
 
 ```
