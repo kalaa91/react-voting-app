@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "22104f5654e11b4dc54ee29baa833b7f",
+    "revision": "8da101b5d43520adcad1ee69811b7c34",
     "url": "/react-voting-app/index.html"
   },
   {
-    "revision": "2545f392ded9bf0ba762",
+    "revision": "f8150fbed1f0a874a091",
     "url": "/react-voting-app/static/css/main.345d39e4.chunk.css"
   },
   {
@@ -20,16 +20,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-voting-app/static/js/3.a036d4bb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6b8e8d8434a6da8584b0",
-    "url": "/react-voting-app/static/js/4.31ac31fb.chunk.js"
+    "revision": "5a43c3d25dc3d7607f59",
+    "url": "/react-voting-app/static/js/4.c2fbe2e4.chunk.js"
   },
   {
-    "revision": "515c8d766934af2a8f8b",
-    "url": "/react-voting-app/static/js/5.786311d8.chunk.js"
+    "revision": "7a8b0793a828ed0cd046",
+    "url": "/react-voting-app/static/js/5.caab3ca3.chunk.js"
   },
   {
-    "revision": "ad8b9e6996421de3fe90",
-    "url": "/react-voting-app/static/js/6.d791cbab.chunk.js"
+    "revision": "0b98b91ca464ab5e8871",
+    "url": "/react-voting-app/static/js/6.71c934ed.chunk.js"
   },
   {
     "revision": "765bf0a382e52f2c0547",
@@ -40,11 +40,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-voting-app/static/js/8.7e2f4f01.chunk.js"
   },
   {
-    "revision": "2545f392ded9bf0ba762",
-    "url": "/react-voting-app/static/js/main.5dc282f9.chunk.js"
+    "revision": "f8150fbed1f0a874a091",
+    "url": "/react-voting-app/static/js/main.f54b6122.chunk.js"
   },
   {
-    "revision": "14192f2b1b87508a4f5d",
-    "url": "/react-voting-app/static/js/runtime-main.c1d22286.js"
+    "revision": "a7b95ac1974aed5fca16",
+    "url": "/react-voting-app/static/js/runtime-main.f80277ae.js"
   }
 ]);
