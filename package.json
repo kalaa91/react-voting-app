@@ -1,6 +1,7 @@
 {
   "name": "react-voting-app",
   "version": "0.1.0",
+  "homepage": "https://kalaa91.github.io/react-voting-app/",
   "keywords": [
     "react",
     "voting"
@@ -34,7 +35,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test --coverage --watchAll=fals",
     "eject": "react-scripts eject",
-    "test:cypress": "cypress open"
+    "test:cypress": "cypress open",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -62,6 +65,7 @@
     ]
   },
   "devDependencies": {
-    "cypress": "^4.12.1"
+    "cypress": "^4.12.1",
+    "gh-pages": "^3.1.0"
   }
 }
