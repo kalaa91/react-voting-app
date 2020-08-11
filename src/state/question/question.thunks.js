@@ -1,6 +1,8 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import { client, BaseUrl } from "../../api/client";
-
+/**
+ * List of Thunks used to do async http requests
+ */
 export const fetchQuestions = createAsyncThunk(
   "questions/fetchQuestions",
   async () => {

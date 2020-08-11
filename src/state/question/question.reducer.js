@@ -7,6 +7,9 @@ import {
   voteQuestion,
 } from "./question.thunks";
 
+/**
+ * reducer to update store based on actions
+ */
 const questionsSlice = createSlice({
   name: "questions",
   initialState,

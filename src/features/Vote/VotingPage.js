@@ -19,24 +19,30 @@ import {
 } from "../../components";
 
 const VotingHeader = React.lazy(() => import("./VotingHeader"));
+
+/**
+ * This Page is used to Show Choices and facilitate voting
+ */
 export default function VotingPage() {
   const dispatch = useDispatch();
   const question = useSelector((state) => selectVotingQuestion(state));
   const history = useHistory();
   const [selectedVote, setActiveVote] = useState(null);
 
+  // Cancel Voting process and go back
   const clearVoteAndGoBack = () => {
     dispatch(cancelVoting());
   };
 
+  // Dispatch voting process with vote url
   const voteForQuestion = (voteUrl) => {
     dispatch(voteQuestion(voteUrl));
     alert("Thank you for voting");
   };
 
+  // listining to state for voting quesion and go back after the quesiont being removed
   useEffect(() => {
     if (question == null) {
-      //   dispatch(fetchQuestions());
       history.push(`/`);
     }
   }, [question, history]);

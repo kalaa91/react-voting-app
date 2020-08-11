@@ -29,12 +29,14 @@ export default function QuestionsPage() {
     history.push(`/add-new/`);
   };
 
+  // listining to state for voting quesion and go to vote page when available
   useEffect(() => {
     if (question !== null) {
       history.push(`/vote/`);
     }
   }, [question, history]);
 
+  // listining to state for questions status, and fetch if it's idle
   useEffect(() => {
     if (questionsStatus === "idle") {
       dispatch(fetchQuestions());
@@ -44,13 +46,17 @@ export default function QuestionsPage() {
   let content;
 
   if (questionsStatus === "loading") {
-    content = <div className="loader">Loading...</div>;
+    // TODO: add better loading component
+    // if questionsStatus state object is in loading mood, then show loader
+    content = <div>Loading...</div>;
   } else if (questionsStatus === "succeeded") {
+    // if Questions have been fetched, construct them and show the list
     const orderedPosts = Object.values(questions);
     content = orderedPosts.map((questionObj) => (
       <QuestionCard key={questionObj.id} question={questionObj} />
     ));
   } else if (questionsStatus === "failed") {
+    // if Questions have failed to be fetched, show error message
     content = <div>{error}</div>;
   }
 

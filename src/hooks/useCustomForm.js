@@ -1,4 +1,9 @@
 import { useState, useCallback } from "react";
+/**
+ *
+ * @param {initial form values} initialState
+ * @param {call back function for after form submission} callback
+ */
 export const useCustomForm = (initialState = {}, callback) => {
   const [inputs, setValues] = useState(initialState);
   const handleSubmit = useCallback(
