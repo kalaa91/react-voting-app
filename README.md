@@ -65,11 +65,12 @@ src/                        project source code
 
 Task automation is based on [NPM scripts](https://docs.npmjs.com/misc/scripts).
 
-| Task            | Description                            |
-| --------------- | -------------------------------------- |
-| `npm run build` | build app and export to `build` folder |
-| `npm run start` | Run server on `http://localhost:3000/` |
-| `npm run test`  | run tests                              |
+| Task                    | Description                            |
+| ------------------------| -------------------------------------- |
+| `npm run build`         | build app and export to `build` folder |
+| `npm run start`         | Run server on `http://localhost:3000/` |
+| `npm run test`          | run tests                              |
+| `npm run test:cypress`  | run e2e tests                          |
 
 # Secondary tasks
 
