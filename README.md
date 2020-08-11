@@ -6,13 +6,13 @@ Is to practice reactjs, through building a voiting app that uses [pollsapi votin
 
 ### Todo:
 
-- [ ] List of questions page.
-- [ ] Question detail page.
-- [ ] Create a new question page.
+- [x] List of questions page.
+- [x] Question detail page.
+- [x] Create a new question page.
 - [x] Add support for Service worker.
 - [x] To use Redux as a state management.
-- [ ] Use React Hooks, lazy and Suspense APIs.
-- [ ] Explore [styled components](https://styled-components.com/) as a CSS-in-js library.
+- [x] Use React Hooks, lazy and Suspense APIs.
+- [x] Explore [styled components](https://styled-components.com/) as a CSS-in-js library.
 - [ ] Configure unit, Integration and E2E tests.
 
 # Project structure
