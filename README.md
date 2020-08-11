@@ -13,7 +13,8 @@ Is to practice reactjs, through building a voiting app that uses [pollsapi votin
 - [x] To use Redux as a state management.
 - [x] Use React Hooks, lazy and Suspense APIs.
 - [x] Explore [styled components](https://styled-components.com/) as a CSS-in-js library.
-- [ ] Configure unit, Integration and E2E tests.
+- [x] Configure unit, Integration and E2E tests.
+- [ ] Publish the app on github pages.
 
 ## Run the app 
 1. to install project dependencies
