@@ -2,10 +2,9 @@
 ## Project goal
 Is to practice reactjs, through building a voiting app that uses [pollsapi voting api](http://docs.pollsapi.apiary.io/)
 
-# Project Homepage:
- [React Voting App](https://kalaa91.github.io/react-voting-app/)
+### Visit App Homepage [Here](https://kalaa91.github.io/react-voting-app/)
 
-### Todo:
+### Planned items:
 
 - [x] List of questions page.
 - [x] Question detail page.
@@ -15,7 +14,8 @@ Is to practice reactjs, through building a voiting app that uses [pollsapi votin
 - [x] Use React Hooks, lazy and Suspense APIs.
 - [x] Explore [styled components](https://styled-components.com/) as a CSS-in-js library.
 - [x] Configure unit, Integration and E2E tests.
-- [x] Publish the app on github pages.
+- [x] Autodeploy the app on github pages using github Actions.
+- [x] Enable running the app through docker image.
 
 ## Run the app
 
